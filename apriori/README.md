@@ -1,3 +1,5 @@
 
+require: 
+ 
 #To run this program
-index.py --support .5 --confidence .5 --input trainingSet.csv --outputFI FI1.txt --outputAR AR1.txt 
+python index.py --support .8 --confidence .9 --input supermarket2.csv --outputFI FI.txt --outputAR AR.txt

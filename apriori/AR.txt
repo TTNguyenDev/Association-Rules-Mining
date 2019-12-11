@@ -1,9 +1,0 @@
- 0.83 [' socks'] => shoes
- 1.00 ['shoes'] =>  socks
- 0.92 [' laces'] => shoes
- 1.00 ['shoes'] =>  laces
- 1.00 [' laces'] =>  socks
- 0.91 [' socks'] =>  laces
- 0.83 [' socks', ' laces'] => shoes
- 1.00 ['shoes', ' laces'] =>  socks
- 0.91 ['shoes', ' socks'] =>  laces
