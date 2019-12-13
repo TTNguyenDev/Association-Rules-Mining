@@ -22,4 +22,4 @@ def getCSVFromArff(fileName):
 		fout.write('\n')
 		fout.writelines(data[i:])
 
-getCSVFromArff("weather.nominal")				# enter filename here (without extension)
+getCSVFromArff("supermarket")				# enter filename here (without extension)
