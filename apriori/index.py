@@ -21,14 +21,16 @@ def printResults(items, rules, outputFI, outputAR):
             print(count[len(item)])
             writeFI.write(str(count[len(item)]) + "\n")
         previousSize = len(item)
-        print "%.3f %s" % (support, str(item)[1:-1])
-        writeFI.write("%.3f %s \n" % (support, str(item)[1:-1]))
+        print "%.2f %s" % (support, str(item)[1:-1])
+        writeFI.write("%.2f %s \n" % (support, str(item)[1:-1]))
     writeFI.close()
     
-    print "\n------------------------ RULES:"
+    print "\n------------------------ RULES ------------------------"
+
     writeAR = open(outputAR, "w")
     previousSize = -1
     rules = sorted(rules, key=lambda((pre, post), confidence): len(pre))
+
     count = list()
     for rule, confidence in rules:
         pre, post = rule 
@@ -42,18 +44,16 @@ def printResults(items, rules, outputFI, outputAR):
             writeAR.write(str(count[len(pre)]) + "\n")
         previousSize = len(pre)
        
-        print "%.3f %s ==> %s" % (confidence, str(pre)[1:-1], str(post)[1:-1])
-        writeAR.write("%.3f %s ==> %s \n" % (confidence, str(pre)[1:-1], str(post)[1:-1]))
+        print "%.2f %s ==> %s" % (confidence, str(pre)[1:-1], str(post)[1:-1])
+        writeAR.write("%.2f %s ==> %s \n" % (confidence, str(pre)[1:-1], str(post)[1:-1]))
 
 def readCSV(path): 
     with open(path, 'r') as f:
-
         reader = csv.reader(f)
         your_list = list(reader)
         attributesName = your_list[0]
         del your_list[0]
         dataAfter = list()
-        # print(your_list)
 
         for itemSet in your_list:
             temp = list()

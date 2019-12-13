@@ -1,15 +1,12 @@
-10
-0.566 "'crime'", 
-0.553 "'aid-to-nicaraguan-contras'", 
-0.614 "'export-administration-act-south-africa'", 
-0.473 "'mx-missile'", 
-0.493 "'immigration'", 
-0.621 "'religious-groups-in-schools'", 
-0.477 "'superfund-right-to-sue'", 
-0.484 "'el-salvador-aid'", 
-0.546 "'anti-satellite-test-ban'", 
-0.578 "'adoption-of-the-budget-resolution'", 
+7
+0.63 'vegetables', 
+0.37 'beef', 
+0.32 'stationary', 
+0.35 "'dairy foods'", 
+0.40 'department137', 
+0.47 'margarine', 
+0.67 'fruit', 
 3
-0.489 "'religious-groups-in-schools'", "'crime'" 
-0.491 "'aid-to-nicaraguan-contras'", "'adoption-of-the-budget-resolution'" 
-0.479 "'aid-to-nicaraguan-contras'", "'anti-satellite-test-ban'" 
+0.32 'margarine', 'fruit' 
+0.32 'margarine', 'vegetables' 
+0.47 'vegetables', 'fruit' 
