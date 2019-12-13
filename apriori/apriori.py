@@ -7,13 +7,10 @@ import csv
 
 
 def subsets(arr):
-    """ Returns non empty subsets of arr"""
     return chain(*[combinations(arr, i + 1) for i, a in enumerate(arr)])
 
 
 def returnItemsWithMinSupport(itemSet, transactionList, minSupport, freqSet):
-        """calculates the support for items in the itemSet and returns a subset
-       of the itemSet each of whose elements satisfies the minimum support"""
         _itemSet = set()
         localSet = defaultdict(int)
 
@@ -33,7 +30,6 @@ def returnItemsWithMinSupport(itemSet, transactionList, minSupport, freqSet):
 
 
 def joinSet(itemSet, length):
-        """Join a set with itself and returns the n-element itemsets"""
         return set([i.union(j) for i in itemSet for j in itemSet if len(i.union(j)) == length])
 
 
@@ -49,12 +45,6 @@ def getItemSetTransactionList(data_iterator):
 
 
 def runApriori(data_iter, minSupport, minConfidence):
-    """
-    run the apriori algorithm. data_iter is a record iterator
-    Return both:
-     - items (tuple, support)
-     - rules ((pretuple, posttuple), confidence)
-    """
     itemSet, transactionList = getItemSetTransactionList(data_iter)
 
     freqSet = defaultdict(int)

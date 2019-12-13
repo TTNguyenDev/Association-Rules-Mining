@@ -1,0 +1,95 @@
+16
+0.345 "'synfuels-corporation-cutback'", 
+0.400 "'duty-free-exports'", 
+0.570 "'crime'", 
+0.556 "'aid-to-nicaraguan-contras'", 
+0.448 "'water-project-cost-sharing'", 
+0.618 "'export-administration-act-south-africa'", 
+0.430 "'handicapped-infants'", 
+0.476 "'mx-missile'", 
+0.407 "'physician-fee-freeze'", 
+0.393 "'education-spending'", 
+0.497 "'immigration'", 
+0.625 "'religious-groups-in-schools'", 
+0.480 "'superfund-right-to-sue'", 
+0.487 "'el-salvador-aid'", 
+0.549 "'anti-satellite-test-ban'", 
+0.582 "'adoption-of-the-budget-resolution'", 
+37
+0.441 "'aid-to-nicaraguan-contras'", "'mx-missile'" 
+0.347 "'adoption-of-the-budget-resolution'", "'duty-free-exports'" 
+0.446 "'el-salvador-aid'", "'crime'" 
+0.336 "'religious-groups-in-schools'", "'immigration'" 
+0.386 "'aid-to-nicaraguan-contras'", "'export-administration-act-south-africa'" 
+0.315 "'crime'", "'immigration'" 
+0.343 "'education-spending'", "'el-salvador-aid'" 
+0.483 "'aid-to-nicaraguan-contras'", "'anti-satellite-test-ban'" 
+0.391 "'el-salvador-aid'", "'superfund-right-to-sue'" 
+0.453 "'religious-groups-in-schools'", "'el-salvador-aid'" 
+0.428 "'religious-groups-in-schools'", "'superfund-right-to-sue'" 
+0.494 "'aid-to-nicaraguan-contras'", "'adoption-of-the-budget-resolution'" 
+0.368 "'physician-fee-freeze'", "'religious-groups-in-schools'" 
+0.322 "'anti-satellite-test-ban'", "'handicapped-infants'" 
+0.386 "'physician-fee-freeze'", "'crime'" 
+0.407 "'crime'", "'superfund-right-to-sue'" 
+0.324 "'education-spending'", "'physician-fee-freeze'" 
+0.333 "'physician-fee-freeze'", "'superfund-right-to-sue'" 
+0.414 "'mx-missile'", "'adoption-of-the-budget-resolution'" 
+0.315 "'water-project-cost-sharing'", "'religious-groups-in-schools'" 
+0.347 "'adoption-of-the-budget-resolution'", "'handicapped-infants'" 
+0.462 "'anti-satellite-test-ban'", "'adoption-of-the-budget-resolution'" 
+0.363 "'education-spending'", "'crime'" 
+0.395 "'export-administration-act-south-africa'", "'anti-satellite-test-ban'" 
+0.340 "'export-administration-act-south-africa'", "'crime'" 
+0.492 "'religious-groups-in-schools'", "'crime'" 
+0.333 "'anti-satellite-test-ban'", "'duty-free-exports'" 
+0.320 "'education-spending'", "'superfund-right-to-sue'" 
+0.398 "'export-administration-act-south-africa'", "'adoption-of-the-budget-resolution'" 
+0.366 "'education-spending'", "'religious-groups-in-schools'" 
+0.340 "'export-administration-act-south-africa'", "'mx-missile'" 
+0.418 "'mx-missile'", "'anti-satellite-test-ban'" 
+0.386 "'physician-fee-freeze'", "'el-salvador-aid'" 
+0.336 "'aid-to-nicaraguan-contras'", "'handicapped-infants'" 
+0.345 "'export-administration-act-south-africa'", "'immigration'" 
+0.363 "'export-administration-act-south-africa'", "'religious-groups-in-schools'" 
+0.347 "'aid-to-nicaraguan-contras'", "'duty-free-exports'" 
+31
+0.315 "'aid-to-nicaraguan-contras'", "'handicapped-infants'", "'adoption-of-the-budget-resolution'" 
+0.430 "'aid-to-nicaraguan-contras'", "'anti-satellite-test-ban'", "'adoption-of-the-budget-resolution'" 
+0.303 "'education-spending'", "'religious-groups-in-schools'", "'superfund-right-to-sue'" 
+0.320 "'physician-fee-freeze'", "'crime'", "'superfund-right-to-sue'" 
+0.359 "'religious-groups-in-schools'", "'el-salvador-aid'", "'physician-fee-freeze'" 
+0.393 "'aid-to-nicaraguan-contras'", "'mx-missile'", "'adoption-of-the-budget-resolution'" 
+0.315 "'aid-to-nicaraguan-contras'", "'export-administration-act-south-africa'", "'mx-missile'" 
+0.317 "'education-spending'", "'el-salvador-aid'", "'physician-fee-freeze'" 
+0.398 "'aid-to-nicaraguan-contras'", "'mx-missile'", "'anti-satellite-test-ban'" 
+0.368 "'physician-fee-freeze'", "'el-salvador-aid'", "'crime'" 
+0.340 "'education-spending'", "'religious-groups-in-schools'", "'crime'" 
+0.313 "'religious-groups-in-schools'", "'physician-fee-freeze'", "'superfund-right-to-sue'" 
+0.370 "'mx-missile'", "'adoption-of-the-budget-resolution'", "'anti-satellite-test-ban'" 
+0.306 "'education-spending'", "'crime'", "'superfund-right-to-sue'" 
+0.324 "'physician-fee-freeze'", "'el-salvador-aid'", "'superfund-right-to-sue'" 
+0.343 "'aid-to-nicaraguan-contras'", "'export-administration-act-south-africa'", "'adoption-of-the-budget-resolution'" 
+0.382 "'religious-groups-in-schools'", "'crime'", "'superfund-right-to-sue'" 
+0.317 "'aid-to-nicaraguan-contras'", "'duty-free-exports'", "'adoption-of-the-budget-resolution'" 
+0.338 "'aid-to-nicaraguan-contras'", "'export-administration-act-south-africa'", "'anti-satellite-test-ban'" 
+0.331 "'education-spending'", "'el-salvador-aid'", "'crime'" 
+0.306 "'education-spending'", "'physician-fee-freeze'", "'religious-groups-in-schools'" 
+0.301 "'education-spending'", "'el-salvador-aid'", "'superfund-right-to-sue'" 
+0.347 "'physician-fee-freeze'", "'religious-groups-in-schools'", "'crime'" 
+0.368 "'religious-groups-in-schools'", "'el-salvador-aid'", "'superfund-right-to-sue'" 
+0.313 "'education-spending'", "'physician-fee-freeze'", "'crime'" 
+0.310 "'aid-to-nicaraguan-contras'", "'anti-satellite-test-ban'", "'duty-free-exports'" 
+0.303 "'export-administration-act-south-africa'", "'anti-satellite-test-ban'", "'mx-missile'" 
+0.322 "'export-administration-act-south-africa'", "'anti-satellite-test-ban'", "'adoption-of-the-budget-resolution'" 
+0.324 "'education-spending'", "'el-salvador-aid'", "'religious-groups-in-schools'" 
+0.372 "'el-salvador-aid'", "'crime'", "'superfund-right-to-sue'" 
+0.414 "'religious-groups-in-schools'", "'el-salvador-aid'", "'crime'" 
+7
+0.306 "'religious-groups-in-schools'", "'physician-fee-freeze'", "'el-salvador-aid'", "'superfund-right-to-sue'" 
+0.356 "'aid-to-nicaraguan-contras'", "'anti-satellite-test-ban'", "'adoption-of-the-budget-resolution'", "'mx-missile'" 
+0.306 "'physician-fee-freeze'", "'crime'", "'education-spending'", "'el-salvador-aid'" 
+0.352 "'religious-groups-in-schools'", "'crime'", "'el-salvador-aid'", "'superfund-right-to-sue'" 
+0.340 "'religious-groups-in-schools'", "'crime'", "'physician-fee-freeze'", "'el-salvador-aid'" 
+0.313 "'crime'", "'physician-fee-freeze'", "'el-salvador-aid'", "'superfund-right-to-sue'" 
+0.313 "'religious-groups-in-schools'", "'crime'", "'education-spending'", "'el-salvador-aid'" 

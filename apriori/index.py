@@ -1,5 +1,5 @@
 from itertools import chain, combinations
-from collections import defaultdict
+from collections import (defaultdict, Counter)
 from optparse import OptionParser
 from apriori import runApriori
 import argparse
@@ -9,28 +9,41 @@ import sys
 def printResults(items, rules, outputFI, outputAR):
     previousSize = -1
     writeFI = open(outputFI,"w")
-    for item, support in sorted(items, key=lambda (item, support): support):
+    items = sorted(items, key=lambda (item, support): len(item))
+
+    count = list()
+    for item, support in items:
+        count.append(item)
+    count = Counter(map(len, count))
+
+    for item, support in items:
         if previousSize != len(item):
-            print(len(item))
-            writeFI.write(str(len(item)) + "\n")
+            print(count[len(item)])
+            writeFI.write(str(count[len(item)]) + "\n")
         previousSize = len(item)
         print "%.3f %s" % (support, str(item)[1:-1])
-        writeFI.write("%.3f %s + \n" % (support, str(item)[1:-1]))
-        # print(len(item))
+        writeFI.write("%.3f %s \n" % (support, str(item)[1:-1]))
     writeFI.close()
     
     print "\n------------------------ RULES:"
     writeAR = open(outputAR, "w")
     previousSize = -1
-    for rule, confidence in sorted(rules, key=lambda (rule, confidence): confidence):
+    rules = sorted(rules, key=lambda((pre, post), confidence): len(pre))
+    count = list()
+    for rule, confidence in rules:
+        pre, post = rule 
+        count.append(pre)
+    count = Counter(map(len, count))
+
+    for rule, confidence in rules:
         pre, post = rule
         if previousSize != len(pre):
-            print(len(pre))
-            writeAR.write(str(len(pre)) + "\n")
+            print(count[len(pre)])
+            writeAR.write(str(count[len(pre)]) + "\n")
         previousSize = len(pre)
        
         print "%.3f %s ==> %s" % (confidence, str(pre)[1:-1], str(post)[1:-1])
-        writeAR.write("%.3f %s ==> %s + \n" % (confidence, str(pre)[1:-1], str(post)[1:-1]))
+        writeAR.write("%.3f %s ==> %s \n" % (confidence, str(pre)[1:-1], str(post)[1:-1]))
 
 def readCSV(path): 
     with open(path, 'r') as f:
@@ -40,13 +53,15 @@ def readCSV(path):
         attributesName = your_list[0]
         del your_list[0]
         dataAfter = list()
+        # print(your_list)
 
         for itemSet in your_list:
             temp = list()
             for index, item in enumerate(itemSet):
-                if item == 't':
+                if item == 'y':
                     temp.append(attributesName[index])
             dataAfter.append(temp)
+    print(dataAfter)
     return dataAfter
 
 # main function
@@ -69,13 +84,3 @@ data = readCSV(input)
 items, rules = runApriori(data, support, confidence)
 
 printResults(items, rules, outputFI, outputAR)
-
-# print_results(
-#     outputFI,
-#     outputAR,
-#     inFile,
-#     runApriori(inFile, support, confidence),
-#     support,
-#     confidence
-# )
-
