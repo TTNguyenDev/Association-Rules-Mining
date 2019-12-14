@@ -1,3 +1,5 @@
-2
-0.75 'vegetables', ==> 'fruit', 
-0.71 'fruit', ==> 'vegetables', 
+4
+0.70 "'bread and cake'", ==> 'fruit', 
+0.78 'fruit', ==> "'bread and cake'", 
+0.71 "'bread and cake'", ==> 'milk-cream', 
+0.78 'milk-cream', ==> "'bread and cake'", 

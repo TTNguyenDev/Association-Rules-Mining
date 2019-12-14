@@ -1,12 +1,12 @@
-7
-0.63 'vegetables', 
-0.37 'beef', 
-0.32 'stationary', 
-0.35 "'dairy foods'", 
-0.40 'department137', 
-0.47 'margarine', 
-0.67 'fruit', 
-3
-0.32 'margarine', 'fruit' 
-0.32 'margarine', 'vegetables' 
-0.47 'vegetables', 'fruit' 
+8
+0.65 'milk-cream', 
+0.62 "'baking needs'", 
+0.64 'vegetables', 
+0.55 'biscuits', 
+0.72 "'bread and cake'", 
+0.64 'fruit', 
+0.53 'juice-sat-cord-ms', 
+0.57 "'frozen foods'", 
+2
+0.50 "'bread and cake'", 'fruit' 
+0.51 "'bread and cake'", 'milk-cream' 
